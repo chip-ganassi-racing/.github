@@ -1,0 +1,57 @@
+name: Bug Report
+description: Help us crush bugs in our software by filling out this report!
+title: ""
+labels: ["bug"]
+assignees: []
+body:
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: thoroughly describe the issue
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: what are you expecting the application to do
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: numbered list of steps to reproduce issue
+      placeholder: |
+        1. [e.g. Click on '...']
+        2. [e.g. Drag and drop '...']
+        3. Issue appears
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: if applicable, please provide screenshots of the issue
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: describe what your setup looks like
+      placeholder: |
+        - Device: [e.g. iPhone 15 Pro, ThinkPad P15v, etc.]
+        - OS: [e.g. iOS 18.7, Windows 10 22H2, etc.]
+        - Browser: [e.g. Chrome, Firefox, etc.]
+        - Software Version: [if applicable]
+    validations:
+      required: true
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: add any additional notes that would help narrow down and resolve the issue
+    validations:
+      required: false
