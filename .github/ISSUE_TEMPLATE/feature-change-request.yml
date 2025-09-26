@@ -8,27 +8,27 @@ body:
     id: feature-request-details
     attributes:
       label: Feature Request Details
-      description: thoroughly describe your feature request, the expected behavior of it, and where it should be in the application
+      description: Thoroughly describe your feature request, the expected behavior of it, and where it should be in the application.
     validations:
       required: true
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
-      description: if applicable or helpful, please provide screenshots/sketches of where the change should be and what it should look like
+      description: If applicable or helpful, please provide screenshots/sketches of where the change should be and what it should look like.
     validations:
       required: false
   - type: textarea
     id: related-issues
     attributes:
       label: Related Issues
-      description: if your feature request is related to an issue you're having, please describe it. If it's a bug, please fill out a bug report instead!
+      description: If your feature request is related to an issue you're having, please describe it. If it's a bug, please fill out a bug report instead!
     validations:
       required: false
   - type: textarea
     id: additional-notes
     attributes:
       label: Additional Notes
-      description: add any additional notes that would help us implement this feature
+      description: Add any additional notes that would help us implement this feature.
     validations:
       required: false

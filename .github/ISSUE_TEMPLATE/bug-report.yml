@@ -8,21 +8,21 @@ body:
     id: current-behavior
     attributes:
       label: Current Behavior
-      description: thoroughly describe the issue
+      description: Thoroughly describe the issue/bug.
     validations:
       required: true
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected Behavior
-      description: what are you expecting the application to do
+      description: What are you expecting the application to do?
     validations:
       required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce
-      description: numbered list of steps to reproduce issue
+      description: Create a numbered list of the steps to reproduce the issue/bug.
       placeholder: |
         1. [e.g. Click on '...']
         2. [e.g. Drag and drop '...']
@@ -33,14 +33,14 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: if applicable, please provide screenshots of the issue
+      description: If applicable, please provide screenshots of the issue/bug.
     validations:
       required: false
   - type: textarea
     id: environment
     attributes:
       label: Environment
-      description: describe what your setup looks like
+      description: Describe what your setup/environment looks like.
       placeholder: |
         - Device: [e.g. iPhone 15 Pro, ThinkPad P15v, etc.]
         - OS: [e.g. iOS 18.7, Windows 10 22H2, etc.]
@@ -52,6 +52,6 @@ body:
     id: additional-notes
     attributes:
       label: Additional Notes
-      description: add any additional notes that would help narrow down and resolve the issue
+      description: Add any additional notes that would help narrow down and resolve the issue.
     validations:
       required: false
