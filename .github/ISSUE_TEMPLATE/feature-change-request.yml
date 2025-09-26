@@ -1,6 +1,6 @@
 name: Feature/Change Request
 description: Suggest a feature or change for this project!
-title: ""
+title: "[Feature/Change]: "
 labels: ["enhancement"]
 assignees: []
 body:
